@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/arrow_left_off.png</file>
+        <file>icons/arrow_left_on.png</file>
+        <file>icons/arrow_right_off.png</file>
+        <file>icons/arrow_right_on.png</file>
+        <file>icons/hazzard_off.png</file>
+        <file>icons/hazzard_on.png</file>
+        <file>icons/high-beam_off.png</file>
+        <file>icons/high-beam_on.png</file>
+        <file>icons/low-beam_off.png</file>
+        <file>icons/low-beam_on.png</file>
+        <file>icons/parking-lights_off.png</file>
+        <file>icons/parking-lights_on.png</file>
+    </qresource>
+</RCC>
