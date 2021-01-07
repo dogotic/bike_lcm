@@ -1,2 +1,0 @@
-NRF24L01 library
-https://github.com/antoineleclair/avr-nrf24l01
