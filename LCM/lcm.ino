@@ -5,7 +5,7 @@
 #include <Adafruit_NeoPixel.h>
 
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN        9 // On Trinket or Gemma, suggest changing this to 1
+#define PIN        8 // On Trinket or Gemma, suggest changing this to 1
 
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 7 // Popular NeoPixel ring size
