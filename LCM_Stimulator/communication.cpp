@@ -3,7 +3,7 @@
 Communication::Communication()
 {
     serial.setPortName("COM3");
-    serial.setBaudRate(115200);
+    serial.setBaudRate(19200);
     serial.setDataBits(QSerialPort::Data8);
     serial.setStopBits(QSerialPort::OneStop);
     serial.setParity(QSerialPort::NoParity);
