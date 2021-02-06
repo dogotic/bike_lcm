@@ -1,10 +1,10 @@
 TARGET=TX
 
-SRC=main.c 
+SRC=tx.c 
 SRC+=../../src/UART/uart.c
 SRC+=../../src/NRF24L01/nrf24l01.c
 
-OBJ+=main.o
+OBJ+=tx.o
 OBJ+=nrf24l01.o
 OBJ+=uart.o
 
@@ -20,7 +20,7 @@ MATH_LIB = -lm
 CFLAGS=-Wall -Os -mmcu=$(MCU) -DUSE_LOGGING=1 -DF_CPU=8000000UL -std=gnu99
 LDFLAGS = -Wl,-Map=$(TARGET).map,--cref
 LDFLAGS += $(PRINTF_LIB_FLOAT) $(MATH_LIB)
-AVRDUDE_FLAGS= -p$(AVRDUDE_MCU) -c $(AVRDUDE_PROGRAMMER) -P COM3 -b 57600
+AVRDUDE_FLAGS= -p$(AVRDUDE_MCU) -c $(AVRDUDE_PROGRAMMER) -P COM5 -b 57600
 
 hex:
 	avr-gcc -g -Os -mmcu=$(MCU) -c $(INC) $(SRC) $(INC) $(CFLAGS)

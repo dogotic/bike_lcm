@@ -1,15 +1,21 @@
 TARGET=RX
 
-SRC=main.c 
+SRC=rx.c 
 SRC+=../../src/UART/uart.c
 SRC+=../../src/NRF24L01/nrf24l01.c
+SRC+=../../src/WS2812B/ws2812b.c
+SRC+=../../src/TIMER/timer.c
 
-OBJ+=main.o
+OBJ+=rx.o
 OBJ+=nrf24l01.o
 OBJ+=uart.o
+OBJ+=ws2812b.o
+OBJ+=timer.o
 
 INC+=-I../../src/UART/
 INC+=-I../../src/NRF24L01/
+INC+=-I../../src/WS2812B/
+INC+=-I../../src/TIMER/
 
 MCU=atmega328p
 AVRDUDE_MCU=atmega328p
