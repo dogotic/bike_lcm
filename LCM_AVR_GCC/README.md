@@ -10,5 +10,5 @@ The LCM is going to communicate with front and back lights via 2.4GHz ISM band, 
 
 ## TO DO LIST
 - [x] Test NRF24L01 Communication
-- [ ] Test WS2812B LED strip
+- [x] Test WS2812B LED strip
 
